@@ -72,6 +72,7 @@ DATABASES = {
     "elasticsearch": "com.yahoo.ycsb.db.ElasticsearchClient",
     "elasticsearch5": "com.yahoo.ycsb.db.elasticsearch5.ElasticsearchClient",
     "geode"        : "com.yahoo.ycsb.db.GeodeClient",
+    "geode_protobuf"  : "com.yahoo.ycsb.db.GeodeProtobufClient",
     "googlebigtable"  : "com.yahoo.ycsb.db.GoogleBigtableClient",
     "googledatastore" : "com.yahoo.ycsb.db.GoogleDatastoreClient",
     "hbase098"     : "com.yahoo.ycsb.db.HBaseClient",
